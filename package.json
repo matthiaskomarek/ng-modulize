@@ -5,11 +5,15 @@
   "main": "index.js",
   "scripts": {
     "test": "karma start",
-	"build": "webpack --config webpack/webpack.build.js"
+    "build": "webpack --config webpack/webpack.build.js",
+	"start": "webpack --config webpack/webpack.dev.js --watch"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "browser-sync": "^2.13.0",
+    "browser-sync-webpack-plugin": "^1.1.0",
+    "html-webpack-plugin": "^2.22.0",
     "jasmine-core": "^2.4.1",
     "karma": "^1.1.1",
     "karma-jasmine": "^1.0.2",
