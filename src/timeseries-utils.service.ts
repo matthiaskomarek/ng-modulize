@@ -5,7 +5,7 @@ import * as moment from 'moment'
 
 
 export class TimeSeriesUtils {
-	getResolution(resolutions:Array, from:number, to:number, maxNumberEntries:number) {
+	getResolution(resolutions:Array<any>, from:number, to:number, maxNumberEntries:number) {
 		var timeSpan = to - from;
 		timeSpan = timeSpan < 0 ? timeSpan * -1 : timeSpan;
 

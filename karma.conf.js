@@ -78,7 +78,8 @@ module.exports = function (config) {
 		plugins: [
 			require('karma-jasmine'),
 			require('karma-phantomjs-launcher'),
-			require('karma-webpack')
+			require('karma-webpack'),
+			require('karma-sourcemap-loader')
 		]
 	})
 };

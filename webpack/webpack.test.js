@@ -11,9 +11,9 @@ module.exports = {
 		extensions: ['', '.ts', '.js', '.json']
 	},
 	resolveLoader: {
-		modulesDirectories: ["node_modules"]
+		modulesDirectories: ['node_modules']
 	},
-	devtool: "source-map-inline",
+	devtool: 'source-map-inline',
 	plugins: [
 		new webpack.ProvidePlugin({
 			moment: 'moment',
